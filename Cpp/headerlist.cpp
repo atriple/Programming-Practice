@@ -8,14 +8,24 @@
 
 #include <cstdio>
 #include <iostream>
-
+#include <string>
+#include <vector>
 
 /*
-#include <cstdio>
+<cstdio>
 C Standard Input and Output Library, the same like stdio.h for C files.
+example is scanf, printf and such.
 
-#include<iostream>
-Well, you know what this shit is.
+<iostream>
+Well, you know what this shit is. example is cin and cout.
+
+<string>
+enable you to use std::string (or simply string) data type, for example : string x;(variable x with string type).
+so string is actually not the most basic building block in C/C++ (it's actually an array of char), it's prebuilt like
+in higher language like Java, Python, etc.
+
+<vector>
+dynamic array data structure, just like 'list' in python.
 
 
 
