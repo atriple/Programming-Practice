@@ -1,1 +1,1 @@
-Directories to store active programming contest.
+Directories to store programming contest.
