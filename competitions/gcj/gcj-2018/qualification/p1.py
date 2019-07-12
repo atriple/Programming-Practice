@@ -38,7 +38,7 @@ for i in range (1, t+1):
         while(charge_tier > 0):
             if shot_per_tier[charge_tier] == 0:
                 charge_tier -= 1
-                converted_damage = (2 ** charge_tier) - (2 ** charge_tier - 1)
+                converted_damage = (2 ** charge_tier) - (2 ** (charge_tier - 1))
             
             total_damage -= converted_damage
             shot_per_tier[charge_tier] -= 1
