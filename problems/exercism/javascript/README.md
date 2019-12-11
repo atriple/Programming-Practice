@@ -1,4 +1,6 @@
-node modules di copy-paste aja karena hampir semuanya sama...
+# exercism.io - Javascript
+
+node modules di move aja karena hampir semuanya sama...
 
 ## Track
 
