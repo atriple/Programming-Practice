@@ -6,3 +6,5 @@ node modules di move aja karena hampir semuanya sama...
 
 1. [Hello World]()
 2. [Two Fer]()
+3. [Resistor Color]()
+
