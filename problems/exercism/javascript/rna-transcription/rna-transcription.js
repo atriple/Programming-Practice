@@ -3,6 +3,17 @@
 // convenience to get you started writing code faster.
 //
 
-export const toRna = () => {
-  throw new Error("Remove this statement and implement this function");
+const NUCLEOTIDE_COMPLEMENT = {
+  'G' : 'C',
+  'C' : 'G',
+  'T' : 'A',
+  'A' : 'U'
+};
+
+export const toRna = (nucleotides) => {
+  let complements = '';
+  for(let n of nucleotides){
+    complements = complements + NUCLEOTIDE_COMPLEMENT[n];
+  }
+  return complements;
 };
