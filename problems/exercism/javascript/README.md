@@ -4,12 +4,16 @@ node modules di move aja karena hampir semuanya sama...
 
 ## Track
 
-1. [Hello World]()
-2. [Two Fer]()
+1. [Hello World](https://github.com/atriple/Programming-Practice/tree/master/problems/exercism/javascript/hello-world)
+2. [Two Fer](https://github.com/atriple/Programming-Practice/tree/master/problems/exercism/javascript/two-fer)
 3. [Resistor Color](https://github.com/atriple/Programming-Practice/tree/master/problems/exercism/javascript/resistor-color)
-    1. [Leap]()
+    1. [Leap](https://github.com/atriple/Programming-Practice/tree/master/problems/exercism/javascript/leap)
     2. [Reverse String]()
     3. [Triangle]()
-4. [Resistor Color Duo]()
+    4. [Collatz Conjecture]()
+4. [Resistor Color Duo](https://github.com/atriple/Programming-Practice/tree/master/problems/exercism/javascript/resistor-color-duo)
 5. [Gigasecond](https://github.com/atriple/Programming-Practice/tree/master/problems/exercism/javascript/gigasecond)
-6. [Rna Transcription]()
+    1. [Clock]()
+    2. [Meetup]()
+6. [Rna Transcription](https://github.com/atriple/Programming-Practice/tree/master/problems/exercism/javascript/rna-transcription)
+7. [Space Age]()
