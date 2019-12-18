@@ -15,6 +15,10 @@ const complement = (n) => NUCLEOTIDE_COMPLEMENT[n];
 
 export const toRna = (nucleotides) => nucleotides.split('').map(complement).join('');
 // We can also use reduce() instead of join(), but keep it simple, stupid.
+// You can also split your string using [...nucleotides]
+
+// Another interesting solution would be : 
+//export const toRna = ([...str]) => str.map(complement).join('');
 
 //Initial Solution
 // export const toRna = (nucleotides) => {
