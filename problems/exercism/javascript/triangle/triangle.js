@@ -4,11 +4,34 @@
 //
 
 export class Triangle {
-  constructor() {
-    throw new Error("Remove this statement and implement this function");
+  constructor(a, b, c) {
+    this.sides = [a, b, c];
+    this.largestSide = Math.max(...this.sides);
+  }
+
+  isTriangle() {
+    /*
+    Return boolean type, whether it is legal triangle or not
+    */
+
+    //Interestingly, triangle inequality rule is enough to check it.
+    if(this.largestSide >= this.sides[0] + this.sides[1] + this.sides[2] - this.largestSide) 
+      return false;
+
+    return true;
   }
 
   kind() {
-    throw new Error("Remove this statement and implement this function");
+    if(!this.isTriangle()){ throw new Error("This is not triangle!"); }
+
+    const [a, b, c] = this.sides;
+    
+    //Check equilateral
+    if(a == b && a == c) { return 'equilateral';}
+
+    //Check isosceles
+    if(a == b || a == c || b == c) { return 'isosceles';}
+
+    return 'scalene';
   }
 }
