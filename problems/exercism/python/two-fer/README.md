@@ -26,4 +26,4 @@ Here are some examples:
 |Zaphod  |One for Zaphod, one for me.
 
 ## Notes
-If you create default arguments to your function, you can run the function without passing arguments.
+If you create default arguments to your function, you can run the function without passing arguments. pylint might detect error about this (no-value-for-parameter), but you can ignore this.
