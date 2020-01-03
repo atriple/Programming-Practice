@@ -1,14 +1,14 @@
 export class Matrix {
   constructor(matrixString) {
-    this.matrix = matrixString.split('\n').map(row => row.split(' ').map(item => Number(item)));
-    this.transpose = this.matrix[0].map((col, idx) => this.matrix.map(row => row[idx])); 
+    this._rows = matrixString.split('\n').map(row => row.split(' ').map(Number));
+    this._columns = this._rows[0].map((_, i) => this._rows.map(row => row[i])); 
   }
 
   get rows() {
-    return this.matrix;
+    return this._rows;
   }
 
   get columns() {
-    return this.transpose;
+    return this._columns;
   }
 }

@@ -44,3 +44,6 @@ And its columns:
 - Transposing Matrix : https://stackoverflow.com/questions/17428587/transposing-a-2d-array-in-javascript
 - Get : https://www.w3schools.com/js/js_object_accessors.asp
   - It can't have parameters in it, only to access `Class` attributes!
+
+- https://www.sitepoint.com/javascript-private-class-fields/
+- https://curiosity-driven.org/private-properties-in-javascript
